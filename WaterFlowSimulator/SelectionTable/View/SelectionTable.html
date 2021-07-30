@@ -1,0 +1,39 @@
+﻿<div class="form-section" ng-controller="SelectionTableCtrl">
+    <md-card>
+        <md-card-content ng-cloak="" class="sliderdemoBasicUsage">
+            <h6>Select No.Of Rows for the water simulator</h6>
+            <section>
+                <md-slider-container>
+                    <md-slider ng-model="color.red" aria-label="red" id="red-slider" class="md-warn">
+                    </md-slider>
+                    <md-input-container>
+                        <input type="number" ng-model="color.red" aria-label="red" aria-controls="red-slider">
+                    </md-input-container>
+                </md-slider-container>
+            </section>
+            <h6>Select No.Of Columns for the water simulator</h6>
+            <section>
+                <md-slider-container>
+                    <md-slider  ng-model="color.green" aria-label="green" id="green-slider" class="md-warn">
+                    </md-slider>
+                    <md-input-container>
+                        <input type="number" ng-model="color.green" aria-label="green" aria-controls="green-slider">
+                    </md-input-container>
+                </md-slider-container>
+            </section>
+            <h6>Select No.Of Obstructions for the water simulator</h6>
+            <section>
+                <md-slider-container>
+                    <md-slider  ng-model="color.black" aria-label="black" id="black-slider" class="md-warn">
+                    </md-slider>
+                    <md-input-container>
+                        <input type="number" ng-model="color.black" aria-label="black" aria-controls="black-slider">
+                    </md-input-container>
+                </md-slider-container>
+            </section>
+            
+                <md-button class="md-raised md-primary" style="text-align:center;" ng-click="checkParams()">Submit</md-button>
+            
+        </md-card-content>
+    </md-card>
+</div>

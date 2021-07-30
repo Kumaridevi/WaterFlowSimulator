@@ -1,0 +1,31 @@
+﻿#myTable td, th {
+    padding: 10px;
+    color: white;
+    
+    column-width: 54px;
+    font-size: 0px
+}
+#myTable {
+    margin-left: 90px;
+}
+#myTableDef {
+    margin-left: 90px;
+}
+    #myTableDef td, th {
+        padding: 10px;
+        color: white;
+        column-width: 54px;
+        font-size: 0px;
+        background-color: lightblue;
+    }
+
+#maintable{
+    margin-left:600px;
+   
+}
+    #maintable td, th {
+        padding: 10px;
+        color: white;
+        column-width: 54px;
+        font-size: 0px
+    }

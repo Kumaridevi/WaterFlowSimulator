@@ -1,0 +1,6 @@
+﻿.form-section {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    height: auto;
+}
